@@ -133,7 +133,6 @@ def num_points_scored(player_name)
       if player_name == player_hash
         return value[:points]
       end
-      binding.pry
     }
   }
 end
