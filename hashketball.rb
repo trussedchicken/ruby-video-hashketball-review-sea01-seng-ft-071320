@@ -129,6 +129,8 @@ end
 
 def num_points_scored(player_name)
   game_hash.each { | key, value |
-    binding.pry
+    value[:players].each {player_hash
+      binding.pry
+    }
   }
 end
